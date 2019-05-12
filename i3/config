@@ -205,3 +205,7 @@ exec --no-startup-id xinput set-prop  "SynPS/2 Synaptics TouchPad" "libinput Nat
 
 # aesthetics
 exec_always --no-startup-id $HOME/bin/wallpaper-changer.sh 600
+
+# utils
+exec blueman-applet
+exec nm-applet
