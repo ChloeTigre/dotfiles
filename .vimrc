@@ -1,3 +1,6 @@
+set nocompatible                                           
+set t_Co=256                                               
+
 execute pathogen#infect()
 syntax on
 
@@ -11,6 +14,5 @@ set background=dark
 autocmd FileType make setlocal noexpandtab
 
 " aesthetics
-colorscheme solarized
-
-
+"colorscheme solarized
+colorscheme atom-dark-256
