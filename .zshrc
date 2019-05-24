@@ -65,7 +65,7 @@ ZSH_THEME="jaischeema"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent)
+plugins=(git ssh-agent mpd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,3 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+stripcomments() { 
+grep -v '^#' | grep --color=no .
+}
