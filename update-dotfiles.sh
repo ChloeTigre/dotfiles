@@ -6,3 +6,4 @@ cp ~/.Xresources .Xresources
 cp ~/.gitconfig .gitconfig
 cp ~/.zshrc .zshrc
 cp ~/.config/i3/config i3/config
+cp ~/.config/i3blocks/* i3blocks/
