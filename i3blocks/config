@@ -107,8 +107,15 @@ separator=false
 # The battery instance defaults to 0.
 [battery]
 #label=BAT
-label=⚡
-#instance=1
+label=⚡0
+instance=0
+interval=30
+separator=false
+
+[battery]
+label=BAT
+label=⚡1
+instance=1
 interval=30
 separator=false
 
