@@ -1,0 +1,5 @@
+#!/bin/bash
+the_song=$(mpc status | head -n1)
+echo $the_song | grep consume: > /dev/null && echo "-" && exit 0
+echo $the_song
+exit 0

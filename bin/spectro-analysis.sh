@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# a script for audiophiles/use this to analyze spectra of your audio
 SONG=$1
 START_TIME=$2
 DURATION=${3:-0:02}
